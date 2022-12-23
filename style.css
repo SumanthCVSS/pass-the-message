@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-seri;
+}
+
+body,
+html {
+
+    background-color: black;
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+    color: white;
+}
+
+.container {
+    width: 600px;
+    background-color: rgb(249, 185, 185);
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+form input {
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #ffea00;
+}
+
+form input.box {
+    width: 500px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 0 10px;
+
+}
+
+form input.button {
+    font-size: 1.3rem;
+    padding: 12px 20px;
+    background-color: #ffea00;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+h5 {
+    background-color: #FFD4CD;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.feedback{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.message-content{
+color: green;
+}
+
+.button{
+    font-size: 1.3rem;
+    padding: 12px 20px;
+    background-color: #ffea00;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
